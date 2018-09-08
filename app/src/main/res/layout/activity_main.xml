@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -19,5 +20,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <fragment
+        android:id="@+id/websiteFragment"
+        android:name="com.itoismun.oismun.WebsiteFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/website_fragment" />
+
+    <fragment
+        android:id="@+id/twitterFragment"
+        android:name="com.itoismun.oismun.TwitterFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/twitter_fragment" />
+
+    <fragment
+        android:id="@+id/blogsFragment"
+        android:name="com.itoismun.oismun.BlogsFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/website_fragment" />
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.itoismun.oismun.ScheduleFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/schedule_fragment" />
 
 </android.support.constraint.ConstraintLayout>
