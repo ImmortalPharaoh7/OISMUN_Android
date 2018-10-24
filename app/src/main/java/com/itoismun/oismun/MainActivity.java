@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         SectionPagerAdapter adapter = new SectionPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new WebsiteFragment(), getResources().getString(R.string.website));
-        adapter.addFragment(new TwitterFragment(), getResources().getString(R.string.twitter));
-        adapter.addFragment(new BlogsFragment(), getResources().getString(R.string.blogs));
         adapter.addFragment(new ScheduleFragment(), getResources().getString(R.string.schedule));
         viewPager.setAdapter(adapter);
     }

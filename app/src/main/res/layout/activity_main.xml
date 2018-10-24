@@ -18,25 +18,11 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
 
     <fragment
         android:id="@+id/websiteFragment"
         android:name="com.itoismun.oismun.WebsiteFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout="@layout/website_fragment" />
-
-    <fragment
-        android:id="@+id/twitterFragment"
-        android:name="com.itoismun.oismun.TwitterFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout="@layout/twitter_fragment" />
-
-    <fragment
-        android:id="@+id/blogsFragment"
-        android:name="com.itoismun.oismun.BlogsFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout="@layout/website_fragment" />
